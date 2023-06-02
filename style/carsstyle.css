@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Bebas Neue', sans-serif;;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+}
+
+/* HEADER */
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* HEADER */
+
+header{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    /* box-shadow: rgb(56, 56, 56) 1px 1px 10px 1px ; */
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+h2 a{
+    color: #FF3131;
+    text-decoration: underline 2px; 
+}
+
+.cars{
+    position: absolute;
+}
+
+.logo-site{
+    width: 200px;
+    height: 10vh;
+    display: flex;
+    position: absolute;
+    margin-left: 10vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-site img{
+    width: 200px;
+    cursor: pointer;
+}
+
+
+.list{
+    width: 100vw;
+    height: 100%;
+    padding-right: 10vh;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+
+.list-item{
+    margin: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+}
+
+.list-item:hover{
+    scale: 1.2;
+    transition: 300ms;
+    color: #FF3131;
+}
+
+/* END HEADER */
+
+
+/* SUPRA MK1 */
+
+.supras-div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.supra-mk1{
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.mk1-text{
+    width: 450px;
+    height: 400px;
+    font-family: 'Libre Franklin', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.mk1-text h1{
+    font-size: 3.5rem;
+    padding-bottom: 30px;
+}
+
+.mk1-text p{
+    font-size: 1.6rem;
+}
+
+.mk1-img img{
+    width: 800px;
+}
+
+
+
+
+
+
+/* SUPRA MK2 */
+
+.supra-mk2{
+    width: 90vw;
+    height: 80vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.mk2-text{
+    width: 450px;
+    height: 400px;
+    font-family: 'Libre Franklin', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.mk2-text h1{
+    font-size: 3.5rem;
+    padding-bottom: 30px;
+    position: relative;
+    bottom: 10px;
+}
+
+.mk2-text p{
+    font-size: 1.6rem;
+}
+
+.mk2-img img{
+    width: 800px;
+}
+
+
+/* SUPRA MK3 */
+
+.supra-mk3{
+    width: 90vw;
+    height: 80vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.mk3-text{
+    width: 450px;
+    height: 400px;
+    font-family: 'Libre Franklin', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.mk3-text h1{
+    font-size: 3.5rem;
+    padding-bottom: 30px;
+    position: relative;
+    bottom: 10px;
+}
+
+.mk3-text p{
+    font-size: 1.6rem;
+}
+
+.mk3-img img{
+    width: 800px;
+}
+
+
+/* SUPRA MK4 */
+
+.supra-mk4{
+    width: 90vw;
+    height: 80vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.mk4-text{
+    width: 450px;
+    height: 400px;
+    font-family: 'Libre Franklin', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.mk4-text h1{
+    font-size: 3.5rem;
+    padding-bottom: 30px;
+    position: relative;
+    bottom: 10px;
+}
+
+.mk4-text p{
+    font-size: 1.6rem;
+}
+
+.mk4-img img{
+    width: 800px;
+}
+
+/* SUPRA MK5 */
+
+.supra-mk5{
+    width: 90vw;
+    height: 80vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.mk5-text{
+    width: 450px;
+    height: 400px;
+    font-family: 'Libre Franklin', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.mk5-text h1{
+    font-size: 3.5rem;
+    padding-bottom: 30px;
+    position: relative;
+    bottom: 10px;
+}
+
+.mk5-text p{
+    font-size: 1.6rem;
+}
+
+.mk5-img img{
+    width: 800px;
+}
+
+
+
+
+
+.options-cars{
+    width: 50vw;
+    height: 7vh;
+    position: relative;
+    top: 40vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.options-cars button{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 100%;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.options-cars button:hover{
+    scale: 1.1;
+    border: 2px solid #FF3131;
+    color: #FF3131;
+    transition: 300ms;
+}
+
+
+
+footer{
+    font-size: 0.6rem;
+    width: 100vw;
+    height: 5vh;
+    position: absolute;
+    font-family:'Bebas Neue', sans-serif;
+    top: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 40px;
+}
+
+footer a{
+    cursor: pointer;
+    color: #FF3131;
+    text-decoration: underline;
+}

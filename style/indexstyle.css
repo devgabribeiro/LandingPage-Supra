@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/imgs/yeah!\ yeah!\ yeah!.png)
+}
+
+/* HEADER */
+
+header{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    font-family:'Bebas Neue', sans-serif;
+}
+
+.home{
+    position: absolute;
+}
+
+.logo-site{
+    width: 200px;
+    height: 10vh;
+    display: flex;
+    position: absolute;
+    margin-left: 10vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-site img{
+    width: 200px;
+    cursor: pointer;
+}
+
+
+.list{
+    width: 100vw;
+    height: 100%;
+    padding-right: 10vh;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+
+.list-item{
+    margin: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+}
+
+.list-item:hover{
+    scale: 1.2;
+    transition: 300ms;
+    color: #FF3131;
+}
+
+/* HEADER END */
+
+.home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 5vw;
+    padding-top: 10vh;
+}
+.img-home-supra{
+    position: absolute;
+    left: 8vw;
+}
+
+.img-home-supra img{
+    width: 600px;
+}
+
+.text-home{
+    font-family:'Bebas Neue', sans-serif;
+    width: 550px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-home h1{
+    font-size: 7.6rem;
+    font-style: italic;
+    position: relative;
+    top: 40px;
+    right: 50px;
+
+}
+
+.text-home p{
+    font-size: 2.5rem;
+    text-align: center;
+    position: relative;
+    left: 40px;
+    top: 5px;
+}
+
+.text-bg-home{
+    font-size: 300px;
+    font-family:'Bebas Neue', sans-serif;
+    position: absolute;
+    display: flex;
+    z-index: -1;
+    left: 20px;
+}
+
+.text-bg-home h1{
+    letter-spacing: 10px;
+    color: rgb(58, 58, 58);
+    opacity: 40%;
+}
+
+
+
+
+footer{
+    font-size: 0.6rem;
+    width: 100vw;
+    height: 5vh;
+    position: absolute;
+    font-family:'Bebas Neue', sans-serif;
+    top: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 40px;
+}
+
+footer a{
+    cursor: pointer;
+    color: #FF3131;
+    text-decoration: underline;
+}
